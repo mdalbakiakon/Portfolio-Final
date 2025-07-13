@@ -202,7 +202,7 @@ i {
   height: 600px;
   aspect-ratio: 1;
   background: linear-gradient(to bottom, transparent, var(--primary-color) 93%),
-    url(./assets/dp-webp.webp);
+    url(./assets/Images/dp-webp.webp);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -273,8 +273,12 @@ i {
 
 
 .hero-project p{
-  padding-top: 40px;
   text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
 }
 
 .project-grid{
@@ -375,19 +379,19 @@ i {
 }
 
 .pgi1 .bg-blend {
-  background-image: linear-gradient(#3734479f, var(--secondary-color) 85%), url(./assets/qrDEF.jpg);
+  background-image: linear-gradient(#3734479f, var(--secondary-color) 85%), url(./assets/Images/qr.webp);
   background-size: cover;
   background-position: center;
 }
 
 .pgi2 .bg-blend{
-  background-image: linear-gradient(#3734479f, var(--secondary-color) 85%), url(./assets/curr.jpg);
+  background-image: linear-gradient(#3734479f, var(--secondary-color) 85%), url(./assets/Images/curr.webp);
   background-size: cover;
   background-position: center;
 }
 
 .pgi3 .bg-blend{
-  background-image: linear-gradient(#3734479f, var(--secondary-color) 85%), url(./assets/cli.jpg);
+  background-image: linear-gradient(#3734479f, var(--secondary-color) 85%), url(./assets/Images/cli.webp);
   background-size: cover;
   background-position: center;
 }
@@ -533,10 +537,6 @@ footer {
 .skill-grid-item{
   width: 180px;
   font-size: 36px;
-}
-
-.hero-project p{
-  padding-top: 30px;
 }
 
 .project-grid-item {
@@ -739,9 +739,8 @@ footer {
 }
 
 .hero-project p{
-  padding: 20px 0px;
+  padding: 10px 0px;
   font-size: 1rem;
-  text-align: center;
 }
 
 .project-grid-wrapper{
@@ -879,9 +878,8 @@ footer {
 }
 
 .hero-project p{
-  padding: 8px 0px;
-  font-size: 0.85rem;
-  text-align: center;
+  font-size: 0.75rem;
+  padding: 5px 0px;
 }
 
 .project-grid-wrapper{
@@ -891,7 +889,7 @@ footer {
 
 .project-grid-item {
   width: 100%;
-  gap: 8px;
+  gap: 5px;
 }
 
 .project-gap{
