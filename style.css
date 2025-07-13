@@ -486,7 +486,7 @@ footer {
 
 
 /* responsive design */
-@media(max-width: 1210px){
+@media(max-width: 1366px){
 .greetings {
   font-size: 42px;
 }
@@ -504,7 +504,7 @@ footer {
 }
 
 .CV {
-  margin-top: 40px;
+  margin-top: 30px;
   gap: 15px;
 }
 
@@ -517,17 +517,17 @@ footer {
 }
 
 .blob-shape {
-  width: 480px;
+  width: 460px;
 }
 
 .dp {
-  height: 480px;
+  height: 460px;
 }
 
 .home-signature {
-  width: 330px;
+  width: 300px;
   aspect-ratio: 1;
-  bottom: -120px;
+  bottom: -100px;
   right: 30px;
 }
 
@@ -537,7 +537,7 @@ footer {
 }
 
 .skill-grid-item{
-  width: 180px;
+  width: 150px;
   font-size: 36px;
 }
 
@@ -608,11 +608,6 @@ footer {
 
 .hero-skill h1, .hero-project h1, .hero-contact h1{
     font-size: 36px;
-}
-
-.skill-grid-item{
-  width: 150px;
-  font-size: 36px;
 }
 
 .project-grid-item {
