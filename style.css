@@ -201,7 +201,7 @@ i {
   height: 600px;
   aspect-ratio: 1;
   background: linear-gradient(to bottom, transparent, var(--primary-color) 93%),
-    url(./assets/dp.png);
+    url(./assets/dp-webp.webp);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
