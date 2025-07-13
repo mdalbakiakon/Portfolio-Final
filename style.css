@@ -174,6 +174,7 @@ i {
   align-items: center;
   justify-content: center;
   gap: 50px;
+  z-index: 99;
 }
 
 .social-links li a i:hover {
