@@ -373,31 +373,33 @@ i {
 .bg-blend{
   width: 100%;
   height: 100%;
-  transition: transform 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   transform-origin: center;
-    filter: contrast(1.15);
+  filter: brightness(0.7) blur(1px);
 }
 
 .pgi1 .bg-blend {
-  background-image: linear-gradient(#3734479f, var(--secondary-color) 85%), url(./assets/Images/qr.webp);
+  background-image: linear-gradient(transparent, #3734479f, var(--secondary-color) 85%), url(./assets/Images/qr.webp);
   background-size: cover;
   background-position: center;
 }
 
 .pgi2 .bg-blend{
-  background-image: linear-gradient(#3734479f, var(--secondary-color) 85%), url(./assets/Images/curr.webp);
+  background-image: linear-gradient(transparent, #3734479f, var(--secondary-color) 85%), url(./assets/Images/curr.webp);
   background-size: cover;
   background-position: center;
 }
 
 .pgi3 .bg-blend{
-  background-image: linear-gradient(#3734479f, var(--secondary-color) 85%), url(./assets/Images/cli.webp);
+  background-image: linear-gradient(transparent,#3734479f, var(--secondary-color) 85%), url(./assets/Images/cli.webp);
   background-size: cover;
   background-position: center;
 }
 
 .project-grid-item:hover .bg-blend {
   transform: scale(1.2);
+  filter: blur(0) brightness(0.7);
+  transition: all 0.5s ease-in-out;
 }
 
 .hero-contact{
