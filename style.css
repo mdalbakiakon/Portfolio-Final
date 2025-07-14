@@ -719,6 +719,10 @@ footer {
   height: 45px;
 }
 
+.profile-img-container {
+  left: 0px;
+}
+
 .blob-shape {
   width: 300px;
 }
