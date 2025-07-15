@@ -146,6 +146,14 @@ nav ul {
   cursor: pointer;
 }
 
+.CV li a{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hire-me {
   background-color: var(--secondary-font-color);
 }
